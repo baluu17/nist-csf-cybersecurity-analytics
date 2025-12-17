@@ -26,6 +26,11 @@ notebooks in sequence, starting from `01_data_loading_overview.ipynb`.
 Dataset source:
 [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset/data]
 
+The analysis focuses on the following CIC-IDS2017 files:
+- Monday-WorkingHours.pcap_ISCX.csv (baseline traffic)
+- Tuesday-WorkingHours.pcap_ISCX.csv (mixed traffic)
+- Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (attack-heavy traffic)
+
 ## Repository Structure
 
 ### Notebooks
