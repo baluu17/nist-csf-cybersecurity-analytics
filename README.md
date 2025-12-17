@@ -25,15 +25,32 @@ starting from `01_data_loading_overview.ipynb`.
 
 ## Repository Structure
 
-notebooks/
-├── 01_data_loading_overview.ipynb
-├── 02_data_cleaning.ipynb
-├── 03_identify_risk_scoring.ipynb
-├── 04_protect_access_analysis.ipynb
-├── 05_detect_anomaly_detection.ipynb
-├── 06_respond_incident_summary.ipynb
-├── 07_recover_post_incident_analysis.ipynb
-└── 08_visual_insights.ipynb
+# Notebooks
+
+- **01_data_loading_overview.ipynb**  
+  Loads the CIC-IDS2017 datasets and provides an initial overview of features and labels.
+
+- **02_data_cleaning.ipynb**  
+  Cleans, standardises, and prepares the raw data for analysis and modelling.
+
+- **03_identify_risk_scoring.ipynb**  
+  Implements the **Identify** function of the NIST Cybersecurity Framework by scoring and ranking network services based on risk exposure.
+
+- **04_protect_access_analysis.ipynb**  
+  Implements the **Protect** function by defining baseline behaviour and analysing policy violations.
+
+- **05_detect_anomaly_detection.ipynb**  
+  Implements the **Detect** function using Isolation Forest and One-Class SVM to identify anomalous network flows.
+
+- **06_respond_incident_summary.ipynb**  
+  Implements the **Respond** function by converting detected anomalies into prioritised incident summaries with severity levels.
+
+- **07_recover_post_incident_analysis.ipynb**  
+  Implements the **Recover** function by analysing incidents and generating lessons learned and improvement recommendations.
+
+- **08_visual_insights.ipynb**  
+  Contains visual summaries and line graphs used for project demonstration and LinkedIn sharing.
+
 
 ## Key Outputs
 
