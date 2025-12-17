@@ -25,7 +25,7 @@ starting from `01_data_loading_overview.ipynb`.
 
 ## Repository Structure
 
-# Notebooks
+### Notebooks
 
 - **01_data_loading_overview.ipynb**  
   Loads the CIC-IDS2017 datasets and provides an initial overview of features and labels.
