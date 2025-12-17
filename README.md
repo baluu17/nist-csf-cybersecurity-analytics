@@ -25,6 +25,11 @@ used to support **SOC-style security monitoring and incident handling**.
 
 - **Recover**  
   Post-incident analysis and recommendations for system improvement
+  
+- **Govern**  
+  Security governance is addressed through framework-driven design decisions,
+  including risk prioritisation logic, severity definitions, and incident handling
+  structure aligned with the NIST Cybersecurity Framework.
 
 ---
 
